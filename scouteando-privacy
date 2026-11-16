@@ -1,0 +1,47 @@
+# Política de Privacidad — Scouteando
+
+**Última actualización:** 16 de noviembre de 2026
+
+En **Scouteando** valoramos y respetamos profundamente tu privacidad y la seguridad de los datos de tus scouts y proyectos rover. Esta Política de Privacidad describe cómo se maneja la información dentro de la aplicación móvil.
+
+---
+
+## 1. Arquitectura Local-First (Sin Servidores Externos)
+Scouteando opera bajo una estricta filosofía **Local-First**:
+* Todos los datos registrados (nombres de scouts, ramas, estados de competencias, perfiles médicos, teléfonos de tutores y metas de proyectos rover) se almacenan **exclusivamente en la memoria local de tu dispositivo** (mediante *LocalStorage* y bases de datos internas de la app).
+* **No recopilamos, transmitimos, almacenamos ni procesamos ningún dato personal en servidores remotos o en la nube de los desarrolladores.** No poseemos cuentas de usuario ni bases de datos centrales.
+
+---
+
+## 2. Perfil del Scout y Ficha Médica
+* La información ingresada en la sección de **Perfil del Scout** (condiciones de salud, celiaquía, diabetes, medicación y contactos de padres/tutores) es estrictamente confidencial y se guarda de forma local.
+* Por motivos de privacidad y seguridad, **esta información médica y de contacto familiar NUNCA se exporta** al generar las planillas de Excel para compartir o enviar por WhatsApp.
+
+---
+
+## 3. Copias de Seguridad (Backup en Google Drive)
+* La aplicación ofrece la opción de exportar e importar copias de seguridad completas en formato `.json`.
+* Este archivo es generado y controlado exclusivamente por vos. Te recomendamos almacenarlo de forma segura en tu unidad personal de **Google Drive** o memoria local. La gestión de dicho archivo en Google Drive se rige por las políticas de privacidad de tu propia cuenta de Google.
+
+---
+
+## 4. Exportación y Compartir (Excel y WhatsApp)
+* Al exportar el progreso de un scout o un proyecto rover, la app genera un archivo interactivo en formato Excel (`.xlsx`) localmente en tu celular.
+* El envío de dicho archivo o de los resúmenes mediante WhatsApp se realiza de forma directa desde tu cliente de mensajería, sin intervención de ningún servidor intermediario.
+
+---
+
+## 5. Permisos de la Aplicación
+La aplicación solicita únicamente los permisos técnicos indispensables para su funcionamiento local:
+* **Almacenamiento local:** Para guardar la progresión y configuración entre sesiones sin requerir conexión a internet.
+* **Acceso a archivos / Compartir:** Estrictamente para permitirte descargar planillas Excel y respaldos `.json` o compartirlos por WhatsApp con tu equipo de dirigentes.
+
+---
+
+## 6. Cambios en la Política de Privacidad
+Cualquier modificación futura a esta política será publicada en este mismo repositorio. Al tratarse de una aplicación autónoma sin almacenamiento en red, tu privacidad está garantizada por diseño.
+
+---
+
+## 7. Contacto
+Si tenés dudas o consultas sobre el funcionamiento de la privacidad en Scouteando, podés abrir un *Issue* o comunicarte a través del repositorio oficial del proyecto en GitHub.
